@@ -37,20 +37,20 @@ function setup() {
 	
 
 	//Create a Ground
-	ground = Bodies.rectangle(400,635,250,15 , {isStatic:true} );
+	ground = Bodies.rectangle(400,630,250,15 , {isStatic:true} );
  	World.add(world, ground);
 
 
 	Engine.run(engine);
 
 
-	box1=createSprite(400,652,250,15);
+	box1=createSprite(400,650,200,20);
 	box1.shapeColor=color(255,0,0)
 
-	box2=createSprite(530,610,15,100);
+	box2=createSprite(500,610,20,100);
 	box2.shapeColor=color(255,0,0)
 
-	box3=createSprite(270,610,15,100);
+	box3=createSprite(300,610,20,100);
 	box3.shapeColor=color(255,0,0)
   
 }
